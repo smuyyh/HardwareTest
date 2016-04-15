@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ejs_android/!svn/ver/17905/android/factorymode/factorymode/src/com/ztemt/test/basic/item/nfc/record
+END
+RecordUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/ejs_android/!svn/ver/17905/android/factorymode/factorymode/src/com/ztemt/test/basic/item/nfc/record/RecordUtils.java
+END
+ImageRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/ejs_android/!svn/ver/17905/android/factorymode/factorymode/src/com/ztemt/test/basic/item/nfc/record/ImageRecord.java
+END
+SmartPoster.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/ejs_android/!svn/ver/17905/android/factorymode/factorymode/src/com/ztemt/test/basic/item/nfc/record/SmartPoster.java
+END
+TextRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/ejs_android/!svn/ver/17905/android/factorymode/factorymode/src/com/ztemt/test/basic/item/nfc/record/TextRecord.java
+END
+MimeRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/ejs_android/!svn/ver/17905/android/factorymode/factorymode/src/com/ztemt/test/basic/item/nfc/record/MimeRecord.java
+END
+ParsedNdefRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/ejs_android/!svn/ver/17905/android/factorymode/factorymode/src/com/ztemt/test/basic/item/nfc/record/ParsedNdefRecord.java
+END
+UnknownRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/ejs_android/!svn/ver/17905/android/factorymode/factorymode/src/com/ztemt/test/basic/item/nfc/record/UnknownRecord.java
+END
+UriRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/ejs_android/!svn/ver/17905/android/factorymode/factorymode/src/com/ztemt/test/basic/item/nfc/record/UriRecord.java
+END

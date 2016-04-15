@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical"
+     android:background="@drawable/main_background" 
+     android:layout_width="fill_parent" 
+     android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content">
+    <Button 
+        android:textSize="20.0dip" 
+        android:textColor="@color/gray" 
+        android:background="@drawable/btn_default"
+         android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+         android:text="@string/HeadSet_tips" 
+         android:id="@+id/ceshi"
+         android:layout_weight="0.5" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="76dp"
+        android:layout_gravity="center_horizontal" >
+
+    <ImageView
+        android:src="@drawable/vumeter"
+        android:layout_width="150.0px"
+        android:layout_height="60.0px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    </RelativeLayout>
+    <LinearLayout 
+        android:orientation="vertical" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.61"
+            android:background="@drawable/btn_fcm_sucess"
+            android:text="@string/Success"
+            android:textColor="@color/gray"
+            android:id="@+id/HSB"
+            android:textSize="25.0dip" />
+
+        <Button 
+            android:textSize="25.0dip" 
+            android:textColor="@color/gray" 
+            android:background="@drawable/btn_fcm_fail" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:text="@string/Failed" 
+            android:id="@+id/HFB"
+            android:layout_weight="0.2" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+   
+    <Button
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="蓝牙"
+        android:id="@+id/button_blu"
+        />
+    
+    <Button
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="headset"
+        android:id="@+id/button_head"
+        />
+    
+     <Button
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="earphone"
+        android:id="@+id/button_ear"
+        />
+   <Button
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="microphone"
+        android:id="@+id/button_microphone"
+        />
+    <Button
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vibrator"
+        android:id="@+id/button_vibrator"
+        />
+
+</LinearLayout>

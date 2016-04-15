@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/backlight_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="45dip"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/backlight_desc"
+        android:textAppearance="?android:attr/textAppearance" />
+
+    <TextView
+        android:id="@+id/backlight_step"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/backlight_on"
+        android:textAppearance="?android:attr/textAppearance"
+        android:textColor="@color/black"
+        android:visibility="gone" />
+
+</FrameLayout>

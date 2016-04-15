@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout 
+    android:orientation="vertical" 
+    android:background="@drawable/main_background" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button 
+        android:textSize="25.0dip" 
+        android:textColor="@color/gray" 
+        android:background="@drawable/btn_fcm_sucess" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:id="@+id/vibraS"
+        android:text="@string/Success" 
+        android:layout_weight="0.8" />
+    <Button android:textSize="25.0dip" 
+        android:textColor="@color/gray" 
+        android:background="@drawable/btn_fcm_fail" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:id="@+id/vibraF"
+        android:text="@string/Failed" 
+        android:layout_weight="0.2" />
+</LinearLayout>

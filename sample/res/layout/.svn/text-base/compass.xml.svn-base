@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/compass_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dip"
+        android:gravity="center_vertical"
+        android:text="@string/compass_calibration"
+        android:textAppearance="?android:attr/textAppearance" />
+
+    <TextView
+        android:id="@+id/compass_accuracy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dip"
+        android:gravity="center_vertical"
+        android:text="@string/compass_accuracy"
+        android:textAppearance="?android:attr/textAppearance" />
+
+    <view
+        android:id="@+id/compass_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.ztemt.test.basic.item.CompassTest$CompassView" />
+
+</LinearLayout>

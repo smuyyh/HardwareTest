@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">"功能测试"</string>
+    <string name="single_mode">"单项模式"</string>
+    <string name="test_list_empty">"没有测试项"</string>
+    <string name="pass_text">"通过"</string>
+    <string name="fail_text">"失败"</string>
+    <string name="exit_text">"退出"</string>
+
+    <!-- version -->
+    <string name="version_title">"版本信息"</string>
+    <string name="version_software_desc">"下面显示的是软件版本信息"</string>
+    <string name="version_software_codename">"CodeName："</string>
+    <string name="version_software_incremental">"Incremental："</string>
+    <string name="version_software_release">"Release："</string>
+    <string name="version_software_sdk">"SDK："</string>
+    <string name="version_software_baseband">"基带版本："</string>
+    <string name="version_software_display">"版本号："</string>
+    <string name="version_hardware_desc">"下面显示的是硬件版本信息"</string>
+    <string name="version_hardware_board">"Board："</string>
+    <string name="version_hardware_model">"Model："</string>
+    <string name="version_hardware_device">"Device："</string>
+    <string name="version_hardware_manufacture">"Manufacture："</string>
+
+    <!-- lcd -->
+    <string name="lcd_title">"LCD测试"</string>
+    <string name="lcd_desc">"屏幕会显示不同颜色，请检查屏幕是否有黑点和亮点，点击屏幕开始"</string>
+
+    <!-- backlight -->
+    <string name="backlight_title">"背光和键盘灯测试"</string>
+    <string name="backlight_desc">"请检查背光灯和按键灯是否正常，点击屏幕开始"</string>
+    <string name="backlight_on">"背光和键盘灯开启"</string>
+    <string name="backlight_off">"背光和键盘灯关闭"</string>
+    <string name="backlight_def">"背光和键盘灯恢复"</string>
+
+    <!-- receiver -->
+    <string name="receiver_title">"听筒测试"</string>
+    <string name="receiver_desc">"请检查听筒是否有声音，点击屏幕开始"</string>
+
+    <!-- speaker -->
+    <string name="speaker_title">"喇叭测试"</string>
+    <string name="speaker_desc">"请检查喇叭是否有声音，点击屏幕开始"</string>
+
+    <!-- earphone -->
+    <string name="earphone_title">"耳机测试"</string>
+    <string name="earphone_plug_in">"请插入耳机"</string>
+    <string name="earphone_press_hook">"请进行耳机回环测试，按下耳机挂机键完成"</string>
+
+    <!-- fmradio -->
+    <string name="fmradio_title">"收音机测试"</string>
+    <string name="fmradio_desc">"收音机测试，点击屏幕开始"</string>
+    <string name="fmradio_notfound">"未找到收音机测试"</string>
+
+    <!-- key -->
+    <string name="key_title">"按键测试"</string>
+    <string name="key_desc">"下面显示的是当前按下的按键，部分系统按键会被截获，如HOME和POWER键"</string>
+
+    <!-- vibrator -->
+    <string name="vibrator_title">"震动测试"</string>
+    <string name="vibrator_desc">"请分别检查长震动和短震动是否有效"</string>
+    <string name="vibrator_long">"长震动"</string>
+    <string name="vibrator_short">"短震动"</string>
+
+    <!-- storage -->
+    <string name="storage_title">"存储卡测试"</string>
+    <string name="storage_plug_in">"请插入存储卡"</string>
+    <string name="storage_check_play">"请检查是否有音乐播放"</string>
+
+    <!-- camera -->
+    <string name="camera_title">"相机测试"</string>
+    <string name="camera_desc">"相机测试，点击屏幕开始"</string>
+
+    <!-- flashlight -->
+    <string name="flashlight_title">"闪光灯测试"</string>
+    <string name="flashlight_desc">"检查闪光灯能否开启，点击屏幕开始"</string>
+
+    <!-- touch -->
+    <string name="touch_title">"触摸屏测试"</string>
+    <string name="touch_desc">"请分别对屏幕边界和中心区域进行单指划线测试，双击屏幕完成"</string>
+
+    <!-- compass -->
+    <string name="compass_title">"指南针测试"</string>
+    <string name="compass_accuracy">"精度值：%1$s"</string>
+    <string name="compass_calibration">"请在空中划8字形以进行指南针校准"</string>
+    <string name="compass_check_point">"请检查指南针是否指向正确，点击屏幕完成"</string>
+
+    <!-- charger -->
+    <string name="charger_title">"充电器测试"</string>
+    <string name="charger_plug_in">"请插入充电器"</string>
+    <string name="charger_plugged">"充电器已插入"</string>
+
+    <!-- loopback -->
+    <string name="loopback_title">"回环测试"</string>
+    <string name="loopback_desc">"请对准麦克风大声说话或吹气，检查听筒是否有声音传出，点击屏幕开始"</string>
+
+    <!-- microphone -->
+    <string name="microphone_title">"麦克风气密性测试"</string>
+    <string name="microphone_close_to">"请将终端靠近音源"</string>
+    <string name="microphone_block">"请堵住麦克风口"</string>
+    <string name="microphone_amplitude1">"堵前最大振幅："</string>
+    <string name="microphone_amplitude2">"堵后最大振幅："</string>
+    <string name="microphone_amp_value">"%1$d"</string>
+    <string name="microphone_difference">"前后降幅："</string>
+    <string name="microphone_diff_value">"%1$.2f%%"</string>
+    <string name="microphone_suggest_pass">"建议通过"</string>
+    <string name="microphone_suggest_fail">"建议不通过"</string>
+
+    <!-- gsensor -->
+    <string name="gsensor_title">"重力感应测试"</string>
+    <string name="gsensor_portrait_start">"竖屏模式"</string>
+    <string name="gsensor_portrait_success">"竖屏成功"</string>
+    <string name="gsensor_portrait_next">"请横屏"</string>
+    <string name="gsensor_landscape_start">"横屏模式"</string>
+    <string name="gsensor_landscape_success">"横屏成功"</string>
+    <string name="gsensor_landscape_next">"请竖屏"</string>
+
+    <!-- proxsensor -->
+    <string name="proxsensor_title">"接近感应测试"</string>
+    <string name="proxsensor_signal">"信号值：%1$d"</string>
+    <string name="proxsensor_cover">"请将手盖住接近感应器"</string>
+    <string name="proxsensor_remove">"请将手拿开"</string>
+
+    <!-- lightsensor -->
+    <string name="lightsensor_title">"光感应测试"</string>
+    <string name="lightsensor_desc">"请改变周围光线强度\n绿色级别表示当前光线级别\n蓝色级别表示达到的光线级别"</string>
+    <string name="lightsensor_level_1">"级别1：0 &lt; X &lt;= 20"</string>
+    <string name="lightsensor_level_2">"级别2：20 &lt; X &lt;= 1000"</string>
+    <string name="lightsensor_level_3">"级别3：1000 &lt; X"</string>
+    <string name="lightsensor_signal">"实时值：%1$d"</string>
+
+    <!-- nfc -->
+    <string name="nfc_title">"NFC测试"</string>
+    <string name="nfc_turn_on">"请开启NFC后再测试"</string>
+    <string name="nfc_check_tag">"请检查读取标签信息"</string>
+    <string name="nfc_on">"NFC状态：开启"</string>
+    <string name="nfc_off">"NFC状态：关闭"</string>
+    <string name="nfc_tag_empty">"空标记"</string>
+    <string name="nfc_tag_unknown">"未知的标记类型"</string>
+    <string name="nfc_action_text">"向 %s 发送短信"</string>
+    <string name="nfc_action_call">"呼叫 %s"</string>
+    <string name="nfc_import_vcard">"导入 ^1"</string>
+    <string name="nfc_vcard_title">"^1的联系人信息"</string>
+
+    <!-- gyrosensor -->
+    <string name="gyrosensor_title">"陀螺仪测试"</string>
+    <string name="gyrosensor_desc">"请转动设备检查陀螺仪是否正常"</string>
+
+    <!-- unknown -->
+    <string name="unknown_title">"未知测试"</string>
+
+
+    <string name="blutooth">蓝牙</string>
+    <string name="Failed">失败</string>
+    <string name="Success">成功</string>
+    <string name="HeadSet_tips">请插入耳机进行测试！</string>
+    <string name="headset">耳机</string>
+    <string name="earphone">听筒</string>
+    <string name="microphone">麦克风</string>
+    <string name="vibrator">震动</string>
+    <color  name="gray">#d3d3d3</color><!-- 亮灰色 -->
+    <color  name="red">#ff0000 </color><!-- 红色 -->
+    <color  name="green">#00ff7f </color><!-- 红色 -->
+</resources>
